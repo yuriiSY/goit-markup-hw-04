@@ -640,10 +640,13 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover , .footer-social-link:focus {
+.footer-social-link:hover {
     background-color:#31d0aa;
 }
 
+.footer-social-link:focus {
+    background-color: #31d0aa;
+}
 
 .footer-social-list {
     display: flex;
@@ -701,7 +704,7 @@ img {
 }
 
 .modal-close-btn:hover .modal-close-icon ,
-.modal-close-btn:focus .modal-close-btn{
+.modal-close-btn:focus .modal-close-btn {
     fill: #ffffff;
 }
 
