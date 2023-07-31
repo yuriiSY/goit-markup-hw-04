@@ -149,7 +149,7 @@ img {
 .current::after {
     content: "";
     position: absolute;
-    width: 67px;
+    width: 100%;
     left: 0;
     bottom: -1px;
     height: 4px;
