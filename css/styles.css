@@ -639,6 +639,11 @@ img {
     background-color:#31d0aa;
 }
 
+.footer-social-link:hover .footer-item-icon,
+.footer-social-link:focus .footer-item-icon {
+    fill: var(--ocean);
+}
+
 .footer-social-list {
     display: flex;
     gap: 16px;
