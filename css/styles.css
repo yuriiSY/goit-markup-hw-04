@@ -143,7 +143,7 @@ img {
 
 .current {
     position: relative;
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .current::after {
@@ -152,7 +152,7 @@ img {
     left: 0;
     bottom: -1px;
     height: 4px;
-    background-color: #404bbf;
+    background-color: var(--ocean);
     border-radius: 2px;
 }
 
@@ -213,7 +213,7 @@ img {
     margin: 0 auto;
     padding: 16px 32px;
     border-radius: 4px;
-    background: var(--iris, #4D5AE5);
+    background: var(--iris);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     min-width: 169px;
     height: 56px;
@@ -376,7 +376,7 @@ img {
 
 .team-social-link:hover ,
 .team-social-link:focus {
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 
 .team-list-social {
@@ -431,8 +431,8 @@ img {
 
 .customer-logo-link:focus ,
 .customer-logo-link:hover {
-    border-color: #404bbf;;
-    color: #404bbf;
+    border-color: var(--ocean);
+    color: var(--ocean); 
 }
 
 .customer-logo-link:focus .customer-item-icon,
