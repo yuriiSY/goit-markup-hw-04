@@ -428,7 +428,7 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customer-logo-link:focus,
+.customer-logo-link:focus ,
 .customer-logo-link:hover {
     border-color: #404bbf;;
     color: #404bbf;
@@ -635,8 +635,7 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social-link:hover ,
-.footer-social-link:focus {
+.footer-social-link:hover , .footer-social-link:focus {
     background-color:#31d0aa;
 }
 
@@ -697,7 +696,7 @@ img {
 
 .modal-close-btn:hover .modal-close-icon ,
 .modal-close-btn:focus .modal-close-btn{
-    fill: var(--white);
+    fill: #ffffff;
 }
 
 .modal-close-btn:hover,
