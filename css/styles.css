@@ -434,6 +434,11 @@ img {
     color: #404bbf;
 }
 
+.customer-logo-link:focus .customer-item-icon,
+.customer-logo-link:hover .customer-item-icon {
+    fill: var(--ocean);
+}
+
 .customers-list-item {
     width: calc((100% - 120px) / 6);
     height: 88px;
@@ -639,10 +644,6 @@ img {
     background-color:#31d0aa;
 }
 
-.footer-social-link:hover .footer-item-icon,
-.footer-social-link:focus .footer-item-icon {
-    fill: var(--ocean);
-}
 
 .footer-social-list {
     display: flex;
