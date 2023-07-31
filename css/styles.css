@@ -10,6 +10,7 @@
     --navyblue-modal: rgba(46, 47, 66, 0.40);
     --dairy:#FCFCFC;
     --green : #31D0AA;
+    --md-white: #ffffff;
 }
 
 body {
@@ -494,7 +495,7 @@ img {
 
 .portfolio-options-btn {
     border: 1px solid var(--cornflower);
-    background: var(--cloud, #F4F4FD);
+    background: var(--cloud);
     color: var(--iris);
     font-family: inherit;
     text-align: center;
@@ -506,8 +507,6 @@ img {
     cursor: pointer;
     padding: 12px 24px;
     border-radius: 4px;
-    border: 1px solid var(--cornflower, #E7E9FC);
-    background: var(--cloud, #F4F4FD);
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -582,7 +581,7 @@ img {
 }
 
 .footer-social-text {
-    color: var(--white, #FFF);
+    color: var(--white);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;/* 150% */
@@ -641,11 +640,11 @@ img {
 }
 
 .footer-social-link:hover {
-    background-color:#31d0aa;
+    background-color:var(--green);
 }
 
 .footer-social-link:focus {
-    background-color: #31d0aa;
+    background-color: var(--green);
 }
 
 .footer-social-list {
@@ -704,11 +703,11 @@ img {
 }
 
 .modal-close-btn:hover .modal-close-icon {
-    fill: #ffffff;
+    fill: var(--md-white);
 }
 
-.modal-close-btn:focus .modal-close-btn {
-    fill: #ffffff;
+.modal-close-btn:focus .modal-close-icon {
+    fill: var(--md-white);
 }
 
 .modal-close-btn:hover,
